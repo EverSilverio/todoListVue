@@ -1,25 +1,25 @@
-# To Do List - Vue
+# TodoList Vue
 
-## Project setup
-```
-npm install
-```
+Simple ToDoList project using Vue, Vue CLI, Vue Routes and VueX
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Dependências
 
-### Compiles and minifies for production
-```
-npm run build
-```
+* Vue js - https://vuejs.org/
+* Vue CLI - https://cli.vuejs.org/
+* Vue Router - https://router.vuejs.org/
 
-### Lints and fixes files
+### Clone
+
+* O repositório pode ser baixado através do comando:
 ```
-npm run lint
+git clone https://github.com/EverSilverio/todoListVue.git
 ```
 
-### Customize configuration
+## Autor
+
+Everton Silverio
+[@EverSilverio](https://www.linkedin.com/in/eversilverio/)
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
 # todolist-vue
