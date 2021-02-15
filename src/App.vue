@@ -10,8 +10,8 @@
                     <img class="img-responsive img-logo" src="@/assets/logo.png" alt="logomarcar tdlst">
                 </section>
                 <section class="navbar-section">
-                    <a href="" class="btn btn-link">Twiter</a>
-                    <a href="" class="btn btn-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/eversilverio/" target="_blank" class="btn btn-link">LinkedIn</a>
+                    <a href="https://github.com/EverSilverio/" target="_blank" class="btn btn-link">GitHub</a>
                 </section>
             </header>
             <router-view> </router-view>
