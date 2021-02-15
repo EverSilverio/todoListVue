@@ -22,4 +22,10 @@ Everton Silverio
 
 See [Configuration Reference Vue CLI](https://cli.vuejs.org/config/).
 
-# todolist-vue
+### Bassed in lessons from [@paetzoldfelipe](https://twitter.com/paetzoldfelipe)
+
+Thx SwitchCase for the lessons!
+
+[YouTube Channel: SwitchCaseDev](https://www.youtube.com/c/SwitchCaseDev)
+
+[![Vuex + Vue Router Video](https://i.ytimg.com/vi/TLK-99unfPA/hqdefault.jpg)](https://www.youtube.com/playlist?list=PLp7Agl_Dsq-xqtT7jn6PgzwC2jqdMajP2 "Curso intermediário de Vue: Vuex + Vue Router")
