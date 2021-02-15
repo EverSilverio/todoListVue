@@ -1,6 +1,6 @@
 <img src="git/logo.png" alt="Sample Home" width="125px">
 
-# TodoList Vue
+## TodoList with Vue.js
 
 Simple ToDoList project using Vue, Vue CLI, Vue Routes and VueX
 
@@ -9,6 +9,7 @@ Simple ToDoList project using Vue, Vue CLI, Vue Routes and VueX
 
 ### Dependencies
 
+* NPM - https://www.npmjs.com/get-npm
 * Vue js - https://vuejs.org/
 * Vue CLI - https://cli.vuejs.org/
 * Vue Router - https://router.vuejs.org/
@@ -27,7 +28,7 @@ Everton Silverio
 
 See [Configuration Reference Vue CLI](https://cli.vuejs.org/config/).
 
-### Bassed in lessons from SwitchCase Prof:[@paetzoldfelipe](https://twitter.com/paetzoldfelipe)
+## Bassed in lessons from SwitchCase Prof:[@paetzoldfelipe](https://twitter.com/paetzoldfelipe)
 
 Thx SwitchCase for the lessons!
 
