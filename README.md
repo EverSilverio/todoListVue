@@ -22,7 +22,7 @@ Everton Silverio
 
 See [Configuration Reference Vue CLI](https://cli.vuejs.org/config/).
 
-### Bassed in lessons from [@paetzoldfelipe](https://twitter.com/paetzoldfelipe)
+### Bassed in lessons from SwitchCase Prof:[@paetzoldfelipe](https://twitter.com/paetzoldfelipe)
 
 Thx SwitchCase for the lessons!
 
