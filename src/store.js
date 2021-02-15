@@ -17,13 +17,40 @@ const actions = {
             }, 300)
         })
     },
+
     toggleTodo({ commit }, todo) {
         commit('toggleTodo', todo)
     },
+
     removeTodo({ commit }, todo) {
         commit('removeTodo', todo)
+    },
+
+    checkAll({ commit , state }) {
+        const uncheckedsIds = state.todos.filter(i => !i.checked).map(i => i.id)
+        commit('toggleList', uncheckedsIds)
+    },
+
+    unCheckAll({ commit , state }) {
+        const checkedsIds = state.todos.filter(i => i.checked).map(i => i.id)
+        commit('toggleList', checkedsIds)
+    },
+
+    removeAllChecked({ commit, state }) {
+        const checkedsIds = state.todos.filter(i => i.checked).map(i => i.id)
+        commit('removeList', checkedsIds)
     }
+
 };
+
+const getters = {
+    uncheckeds(state) {
+        return state.todos.filter(todo => todo.checked === false)
+    },
+    checkeds(state) {
+        return state.todos.filter(todo => todo.checked)
+    }
+}
 
 const mutations = {
     addTodo(state, payload) {
@@ -44,9 +71,21 @@ const mutations = {
 
     removeTodo(state, payload) {
         state.todos = state.todos.filter(item => item.id !== payload.id)
+    },
+
+    toggleList(state, todosIds) {
+        const todos = state.todos.map(item => {
+            return todosIds.includes(item.id) ? {...item, checked: !item.checked } : item
+        })
+        state.todos = todos
+    },
+
+    removeList(state, todosIds) {
+        const todos = state.todos.filter(item => !todosIds.includes(item.id))
+        state.todos = todos
     }
 }
 
-const store = new Vuex.Store({ state, actions, mutations });
+const store = new Vuex.Store({ state, actions, mutations, getters });
 
 export default store;
