@@ -1,6 +1,11 @@
+<img src="git/logo.png" alt="Sample Home" width="125px">
+
 # TodoList Vue
 
 Simple ToDoList project using Vue, Vue CLI, Vue Routes and VueX
+
+<img src="git/pag01.png" alt="Sample Home" width="90%">
+<img src="git/pag02.png" alt="Sample Kanban" width="90%">
 
 ### Dependencies
 
