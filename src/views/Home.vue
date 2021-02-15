@@ -16,7 +16,6 @@
                 </button>
             </div>
         </form>
-
         <div class="todo-list">
             <todo
                 v-for="t in todos"
